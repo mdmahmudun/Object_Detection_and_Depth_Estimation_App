@@ -1,0 +1,8 @@
+gradio
+matplotlib
+request
+inflect
+PIL
+transformers
+numpy 
+torch
