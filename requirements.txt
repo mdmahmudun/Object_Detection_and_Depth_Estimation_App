@@ -1,8 +1,7 @@
 gradio
 matplotlib
-request
 inflect
-PIL
+pillow
 transformers
 numpy 
 torch

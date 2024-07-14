@@ -1,11 +1,8 @@
 import io
 import matplotlib.pyplot as plt
-import requests
 import inflect
 from PIL import Image
 
-def load_image_from_url(url):
-    return Image.open(requests.get(url, stream = True).raw)
 
 def render_results_in_image(in_pil_img, in_results):
     plt.figure(figsize=(16,10))
